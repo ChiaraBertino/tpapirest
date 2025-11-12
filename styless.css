@@ -1,0 +1,53 @@
+body {
+  background-color: #006400;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: yellow;
+  color: #222;
+  padding: 20px;
+}
+
+.filtros {
+  margin: 20px;
+}
+
+.filtros input, .filtros button {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.filtros button {
+  background-color: #00aaff;
+  color: white;
+  cursor: pointer;
+}
+
+.filtros button:hover {
+  background-color: #0088cc;
+}
+
+.resultado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.personaje {
+  background-color: #222;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.personaje img {
+  width: 100%;
+  border-radius: 10px;
+}
